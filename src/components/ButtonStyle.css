@@ -1,0 +1,84 @@
+.ButtonStyle{
+    /*background-color: #a80505;*/
+    color: white;
+    width:120px;
+    borderRadius:25px 25px 25px 25px;
+    height:45px;
+    fontSize:20px;
+    font-family: Tahoma;
+    border: none;
+    border-radius: 5px;
+    /*margin-top: 60px;*/
+    /*font-weight: normal;*/
+    /*animation-name: example;*/
+    /*animation-duration: 7s;*/
+    /*animation-iteration-count: infinite;*/
+    /*background-image: linear-gradient(-90deg, #fa709a 0%, #fee140 100%);*/
+    background-image: linear-gradient(-90deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    /*background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);*/
+    background-size: 400% 400%;
+
+    -webkit-animation: GradientMove 5s ease infinite;
+    -moz-animation: GradientMove 5s ease infinite;
+    animation: GradientMove 5s ease infinite;
+}
+
+
+
+
+
+@-webkit-keyframes GradientMove {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@-moz-keyframes GradientMove {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes GradientMove {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+
+/*@keyframes  example{*/
+/*    0%{background-color: #a80505;}*/
+/*    25%{background-color: #ffa733}*/
+/*    50%{background-color: #ff9100;}*/
+/*    75%{background-color: #f44336;}*/
+/*    100%{background-color: #a80505;}*/
+/*}*/
+/*@keyframes example {*/
+/*    from{background-color: #a80505;}*/
+/*    to{background-color: black}*/
+/*}*/
